@@ -1,6 +1,7 @@
 .customer-reviews{
     width: 100%;
     text-align: center;
+    margin-bottom: 50px;
 }
 .cards{
     width: 100%;
@@ -24,15 +25,32 @@
     flex-direction: column;
     border-radius: 10px;
 }
-.card p{
-    padding: 20px 0px;
-
+.card h1{
+    color: rgb(0, 37, 75);
+    
 }
-.customer-reviews button{
-    padding: 10px;
-    border: none;
+.card p{
+    margin: 20px 0px;
+    padding: 20px;
     border-radius: 5px;
     background-color: aliceblue;
-    margin-bottom: 20px;
+
+}
+.card small{
+    background-color: rgb(92, 169, 236);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.link{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
