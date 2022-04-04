@@ -1,0 +1,20 @@
+.navbar{
+    height: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 0px 5px;
+    padding: 0px 5px;
+    border-bottom: 2px solid rgb(227, 237, 245);
+}
+.navbar ul li:hover{
+    border-bottom: 2px solid rgb(79, 92, 88);
+    cursor: pointer;
+}

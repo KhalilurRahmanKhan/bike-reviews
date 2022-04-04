@@ -1,0 +1,38 @@
+.customer-reviews{
+    width: 100%;
+    text-align: center;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 21%;
+    box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.61);
+    -moz-box-shadow: 5px 5px 12px -4px rgba(0,0,0,0.61);
+    margin: 10px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.card p{
+    padding: 20px 0px;
+
+}
+.customer-reviews button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
