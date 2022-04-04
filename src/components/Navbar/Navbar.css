@@ -9,6 +9,10 @@
     display: flex;
     list-style: none;
 }
+.navbar ul a{
+    color: black;
+    text-decoration: none;
+}
 .navbar ul li{
     margin: 0px 5px;
     padding: 0px 5px;
