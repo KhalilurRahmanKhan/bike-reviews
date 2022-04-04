@@ -12,8 +12,8 @@ const Reviews = () => {
                 reviews.map(review => 
                     <div className="card">
                     <h1>{review.name}</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, aliquid.</p>
-                    <small>4.5</small>
+                    <p>{review.review}</p>
+                    <small>{review.rating}</small>
                 </div>
                 )
             }
